@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+.focus{
+    @apply focus:outline-none focus:border-indigo-500
+}
+
+@tailwind utilities;
+
+.btn{
+     background-color: #29b800;
+    color: wheat;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 4px;
+    border-radius: 4px;
+}
+
